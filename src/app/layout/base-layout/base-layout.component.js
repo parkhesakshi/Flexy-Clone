@@ -3,7 +3,7 @@ import Headernav from "../headernav/headernav.component";
 
 const pageLayout = ({ children }) => {
   return (
-    <div>
+    <div className="p-3">
       <Headernav />
       {children}
     </div>
