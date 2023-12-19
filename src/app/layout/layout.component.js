@@ -1,15 +1,16 @@
 import React from "react";
 import Sidenav from "./sidenav/sidenav.component";
-import Headernav from "./headernav/headernav.component";
 import Main from "./main/main.component";
+import PageLayout from "./base-layout/base-layout.component";
 import "./layout.component.scss";
 
 const layout = () => {
   return (
-    <div className="bg-grey min-vh-100">
-      <Headernav />
+    <div className="bg-grey layout vh-100">
       <Sidenav />
-      <Main />
+      <PageLayout>
+        <Main />
+      </PageLayout>
     </div>
   );
 };

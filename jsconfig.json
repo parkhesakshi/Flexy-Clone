@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "paths": {
+        "@shared/*":["./src/app/shared/*"],
+         "@ui/*":["./src/app/ui/*"],
+          "@layout/*":["./src/app/layout/*"],
+           "@assets/*":["./src/assets/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

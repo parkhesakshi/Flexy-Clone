@@ -1,0 +1,44 @@
+@use "../../../styles/global/variable" as v;
+.main {
+  display: grid;
+  grid-template-columns: 40% 25% 35%;
+  height: 400px;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+    min-height: 100%;
+    background-color: v.$secondary-color;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 100%;
+    background-color: v.$secondary-color;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+    min-height: 100%;
+    background-color: v.$secondary-color;
+  }
+  .four {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+    min-height: 100%;
+    background-color: v.$secondary-color;
+  }
+  .five {
+    grid-row: 2;
+    min-height: 100%;
+    background-color: v.$secondary-color;
+  }
+  .six {
+    grid-row: 3;
+    min-height: 100%;
+    background-color: v.$secondary-color;
+  }
+}
