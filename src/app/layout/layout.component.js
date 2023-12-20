@@ -8,9 +8,7 @@ const layout = () => {
   return (
     <div className="bg-grey layout vh-100">
       <Sidenav />
-      <PageLayout>
-        <Main />
-      </PageLayout>
+      <PageLayout></PageLayout>
     </div>
   );
 };
