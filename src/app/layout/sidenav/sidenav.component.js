@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../../assets/images/logo.svg";
 import "./sidenav.component.scss";
 import { MAIN_MENUS } from "../../shared/constants/sidenav-menulist";
+import { Outlet, Link } from "react-router-dom";
 
 const sidenav = () => {
   return (
@@ -16,13 +17,13 @@ const sidenav = () => {
             <div className="sidenav-submenu-list d-flex flex-column">
               {item.hasSubMenu &&
                 item.subMenus.map((subItem) => (
-                  <a
-                    href="#"
+                  <Link
+                    to={`${item.link}${subItem.link}`}
                     className="sidenav-link active d-flex p-3 gap-4 text-black"
                   >
                     <img src={subItem.icon} alt="" />
                     <span className="ml-3">{subItem.label}</span>
-                  </a>
+                  </Link>
                 ))}
             </div>
           </div>

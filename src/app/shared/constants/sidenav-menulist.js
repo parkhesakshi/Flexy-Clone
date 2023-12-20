@@ -34,236 +34,234 @@ import Typography from "../../../assets/icons/sidenav-Icons/typography.svg";
 import User from "../../../assets/icons/sidenav-Icons/user.svg";
 import Wizard from "../../../assets/icons/sidenav-Icons/wizard.svg";
 
-
-
 export const MAIN_MENUS = [
   {
     label: "DASHBOARD",
-    link: `dashboard`,
+    link: `/dashboard`,
     hasSubMenu: true,
     subMenus: [
       {
         label: "Modern",
-        link: "modern",
+        link: "/modern",
         icon: Modern,
       },
       {
         label: "Analytical",
-        link: "analytical",
+        link: "/analytical",
         icon: Chart,
       },
       {
         label: "eCommerce",
-        link: "ecommerce",
+        link: "/ecommerce",
         icon: Bucket,
       },
     ],
   },
   {
     label: "APP",
-    link: `app`,
+    link: `/app`,
     hasSubMenu: true,
     subMenus: [
       {
         label: "Chats",
-        link: "chats",
+        link: "/chats",
         icon: Chats,
       },
       {
         label: "Notes",
-        link: "notes",
+        link: "/notes",
         icon: Notes,
       },
       {
         label: "Mail",
-        link: "mail",
-        icon:Mail,
+        link: "/mail",
+        icon: Mail,
       },
       {
         label: "Calender",
-        link: "calender",
+        link: "/calender",
         icon: Calender,
       },
       {
         label: "Customers",
-        link: "customer",
-        icon:Customer,
+        link: "/customer",
+        icon: Customer,
       },
     ],
   },
   {
     label: "PAGES",
-    link: `pages`,
+    link: `/pages`,
     hasSubMenu: true,
     subMenus: [
       {
         label: "Shop",
-        link: "shop",
+        link: "/shop",
         icon: Shop,
       },
       {
         label: "Alert",
-        link: "alert",
+        link: "/alert",
         icon: Alert,
       },
       {
         label: "User Profile",
-        link: "useProfile",
+        link: "/useProfile",
         icon: User,
       },
       {
         label: "Quill Editor",
-        link: "useProfile",
+        link: "/quill-editor",
         icon: QuillEditior,
       },
       {
         label: "  Treeview",
-        link: "useProfile",
+        link: "/tree-view",
         icon: TreeView,
       },
       {
         label: "Pricing",
-        link: "useProfile",
+        link: "/pricing",
         icon: Pricing,
       },
       {
         label: "Typography",
-        link: "useProfile",
+        link: "/typography",
         icon: Typography,
       },
       {
         label: "Feather Icon",
-        link: "useProfile",
+        link: "/feather-icons",
         icon: FeatherIcons,
       },
       {
         label: "Timeline",
-        link: "useProfile",
+        link: "/timeline",
         icon: Timeline,
       },
     ],
   },
   {
     label: "FORMS",
-    link: `dashboard`,
+    link: `/forms`,
     hasSubMenu: true,
     subMenus: [
       {
         label: "Form Elements",
-        link: "modern",
+        link: "/form-element",
         icon: Element,
       },
       {
         label: "Form Layout",
-        link: "analytical",
+        link: "/form-layout",
         icon: Layout,
       },
       {
         label: "Form Custom",
-        link: "ecommerce",
-        icon:Custom,
+        link: "/form-custom",
+        icon: Custom,
       },
       {
         label: "Form Wizard",
-        link: "ecommerce",
+        link: "/form-wizard",
         icon: Wizard,
       },
     ],
   },
   {
     label: "TABLES",
-    link: `dashboard`,
+    link: `/tables`,
     hasSubMenu: true,
     subMenus: [
       {
         label: "Tables",
-        link: "modern",
+        link: "/table",
         icon: Table,
       },
     ],
   },
   {
     label: "WIDGETS",
-    link: `app`,
+    link: `/widgets`,
     hasSubMenu: true,
     subMenus: [
       {
         label: "Widgets Feeds",
-        link: "chats",
+        link: "/widgets-feeds",
         icon: Feeds,
       },
       {
         label: "Widgets Apps",
-        link: "notes",
+        link: "/widgets-app",
         icon: Apps,
       },
     ],
   },
   {
     label: "CHARTS",
-    link: `app`,
+    link: `/charts`,
     hasSubMenu: true,
     subMenus: [
       {
         label: "Line Chart",
-        link: "chats",
+        link: "/line-chart",
         icon: LineChart,
       },
       {
         label: "Gredient Chart",
-        link: "notes",
+        link: "/gredient-chart",
         icon: GredientChart,
       },
       {
         label: "Doughnut & Pie",
-        link: "notes",
+        link: "/doughnut-pie-chart",
         icon: Pie,
       },
       {
         label: "Area Chart",
-        link: "mail",
+        link: "/area-chart",
         icon: AreaChart,
       },
       {
         label: "Column Chart",
-        link: "calender",
+        link: "/column-chart",
         icon: ColumnChart,
       },
       {
         label: "Candlestick Chart",
-        link: "customer",
+        link: "/candelstick-chart",
         icon: Candlestick,
       },
       {
         label: "Radialbar & Radar",
-        link: "customer",
+        link: "/radialbar-radar-chart",
         icon: RadialChart,
       },
     ],
   },
   {
     label: "AUTHENTICATION",
-    link: `app`,
+    link: `/authentication`,
     hasSubMenu: true,
     subMenus: [
       {
         label: "Register",
-        link: "chats",
+        link: "/register",
         icon: Register,
       },
       {
         label: "Login",
-        link: "notes",
+        link: "/login",
         icon: Login,
       },
       {
         label: "Reset Password",
-        link: "mail",
+        link: "/reset-password",
         icon: ReserPassword,
       },
       {
         label: "Error",
-        link: "calender",
+        link: "/error",
         icon: Error,
       },
     ],
