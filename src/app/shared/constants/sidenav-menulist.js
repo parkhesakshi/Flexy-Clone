@@ -106,7 +106,7 @@ export const MAIN_MENUS = [
       },
       {
         label: "User Profile",
-        link: "/useProfile",
+        link: "/userProfile",
         icon: User,
       },
       {
