@@ -1,12 +1,15 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Headernav from "../headernav/headernav.component";
+import PageLayout from "../page-layout/page-layout.component";
 
 const pageLayout = ({ children }) => {
   return (
-    <div className="p-3">
+    <div className="base-layout p-3 bg-grey">
       <Headernav />
-      <Outlet />
+      <PageLayout>
+        <Outlet />
+      </PageLayout>
     </div>
   );
 };

@@ -1,0 +1,142 @@
+{
+  "users": [
+  {
+    "id": 1,
+    "name": "John Doe",
+    "designation": "Software Engineer",
+    "profile_pic": "https://example.com/profiles/johndoe.jpg",
+    "active_status": true
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "designation": "Data Scientist",
+    "profile_pic": "https://example.com/profiles/bobjohnson.jpg",
+    "active_status": false
+  },
+  {
+    "id": 4,
+    "name": "Alice Williams",
+    "designation": "Product Manager",
+    "profile_pic": "https://example.com/profiles/alicewilliams.jpg",
+    "active_status": true
+  },
+  {
+    "id": 5,
+    "name": "Chris Davis",
+    "designation": "Marketing Specialist",
+    "profile_pic": "https://example.com/profiles/chrisdavis.jpg",
+    "active_status": false
+  },
+  {
+    "id": 6,
+    "name": "Eva Rodriguez",
+    "designation": "Graphic Designer",
+    "profile_pic": "https://example.com/profiles/evarodriguez.jpg",
+    "active_status": true
+  },
+  {
+    "id": 7,
+    "name": "Sam Carter",
+    "designation": "HR Manager",
+    "profile_pic": "https://example.com/profiles/samcarter.jpg",
+    "active_status": true
+  },
+  {
+    "id": 8,
+    "name": "Michael Brown",
+    "designation": "Financial Analyst",
+    "profile_pic": "https://example.com/profiles/michaelbrown.jpg",
+    "active_status": false
+  },
+  {
+    "id": 9,
+    "name": "Linda Taylor",
+    "designation": "Customer Support",
+    "profile_pic": "https://example.com/profiles/lindataylor.jpg",
+    "active_status": true
+  },
+  {
+    "id": 10,
+    "name": "David Lee",
+    "designation": "Project Manager",
+    "profile_pic": "https://example.com/profiles/davidlee.jpg",
+    "active_status": false
+  }
+]
+,
+
+  "messages": [
+  {
+    "message_id": 1,
+    "sender_id": 2,
+    "receiver_id": 1,
+    "message": "Hey John, do you have a moment to discuss the upcoming project?",
+    "timestamp": "2023-12-23T10:15:00Z"
+  },
+  {
+    "message_id": 2,
+    "sender_id": 1,
+    "receiver_id": 2,
+    "message": "Sure Jane, I'm available. What's on your mind?",
+    "timestamp": "2023-12-23T10:30:00Z"
+  },
+  {
+    "message_id": 3,
+    "sender_id": 2,
+    "receiver_id": 3,
+    "message": "Hi Bob, I heard you're working on the data analysis report. Any insights so far?",
+    "timestamp": "2023-12-23T11:00:00Z"
+  },
+  {
+    "message_id": 4,
+    "sender_id": 3,
+    "receiver_id": 2,
+    "message": "Yes Jane, I've made some interesting findings. Let's catch up later to discuss.",
+    "timestamp": "2023-12-23T11:15:00Z"
+  },
+  {
+    "message_id": 5,
+    "sender_id": 2,
+    "receiver_id": 4,
+    "message": "Alice, I'm impressed with the latest product updates. Great job!",
+    "timestamp": "2023-12-23T12:00:00Z"
+  },
+  {
+    "message_id": 6,
+    "sender_id": 4,
+    "receiver_id": 2,
+    "message": "Thank you, Jane! It's a team effort. Let me know if you have any suggestions.",
+    "timestamp": "2023-12-23T12:15:00Z"
+  },
+  {
+    "message_id": 7,
+    "sender_id": 2,
+    "receiver_id": 5,
+    "message": "Chris, I noticed some marketing materials need an update. Can we discuss it?",
+    "timestamp": "2023-12-23T13:30:00Z"
+  },
+  {
+    "message_id": 8,
+    "sender_id": 5,
+    "receiver_id": 2,
+    "message": "Certainly Jane, let's schedule a meeting to go over the changes.",
+    "timestamp": "2023-12-23T13:45:00Z"
+  },
+  {
+    "message_id": 9,
+    "sender_id": 2,
+    "receiver_id": 6,
+    "message": "Eva, your recent design concepts are outstanding. I appreciate your creativity.",
+    "timestamp": "2023-12-23T14:30:00Z"
+  },
+  {
+    "message_id": 10,
+    "sender_id": 6,
+    "receiver_id": 2,
+    "message": "Thank you, Jane! I always strive for innovative and user-friendly designs.",
+    "timestamp": "2023-12-23T14:45:00Z"
+  }
+]
+
+}
