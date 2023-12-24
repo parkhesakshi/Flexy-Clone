@@ -1,44 +1,96 @@
 @use "../../../styles/global/variable" as v;
+.modern-cards {
+  // min-height: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba($color: #e1e1e1, $alpha: 0.3);
+  // height: 200px;
+}
+.download {
+  background-color: v.$secondary-color;
+  width: 110px;
+  text-align: center;
+  font-size: medium;
+
+  &:hover {
+    background-color: #e67e5f;
+  }
+}
+.purchase {
+  color: white !important;
+  background-color: v.$primary-color;
+  padding: 10px;
+  font-size: 1.5rem;
+
+  &:hover {
+    background-color: #05b2bd;
+  }
+}
+.dollar {
+  color: white !important;
+  background-color: v.$secondary-color;
+  padding: 10px;
+  font-size: 1.5rem;
+
+  &:hover {
+    background-color: #e67e5f;
+  }
+}
+.base-line {
+  margin: 0px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(119, 126, 137);
+  opacity: 0.6;
+}
+
+.number {
+  font-size: 1.875rem;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
 .main {
   display: grid;
   grid-template-columns: 40% 25% 35%;
   height: 400px;
-  width: 100%;
-  gap: 20px;
-  padding: 20px;
+  width: 97%;
+  min-height: calc(100vh - 100px);
+  gap: 30px;
+  padding: 25px;
+  margin-top: 20px;
 
   .one {
     grid-column: 1;
     grid-row: 1;
-    min-height: 100%;
-    background-color: v.$secondary-color;
+    background-color: white;
+    height: 200px;
   }
   .two {
     grid-column: 2;
     grid-row: 1;
-    min-height: 100%;
-    background-color: v.$secondary-color;
+    background-color: white;
+    height: 200px;
   }
   .three {
     grid-column: 3;
     grid-row: 1;
-    min-height: 100%;
-    background-color: v.$secondary-color;
+    background-color: white;
+    height: 200px;
   }
   .four {
     grid-column: 1 / span 2;
     grid-row: 2 / span 2;
-    min-height: 100%;
-    background-color: v.$secondary-color;
+    background-color: white;
+    height: 450px;
   }
   .five {
     grid-row: 2;
-    min-height: 100%;
-    background-color: v.$secondary-color;
+    background-color: v.$primary-color;
   }
   .six {
     grid-row: 3;
-    min-height: 100%;
     background-color: v.$secondary-color;
   }
 }
