@@ -6,7 +6,7 @@ import { Outlet, Link } from "react-router-dom";
 
 const sidenav = () => {
   return (
-    <div className="sidenav p-3 bg-white overflow-auto">
+    <div className="sidenav p-3 bg-white overflow-auto vh-100">
       <div className="sidenav-header">
         <img src={Logo} alt="" />
       </div>

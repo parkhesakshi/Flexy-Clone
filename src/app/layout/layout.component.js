@@ -5,7 +5,7 @@ import "./layout.component.scss";
 
 const layout = () => {
   return (
-    <div className="bg-grey layout vh-100">
+    <div className="bg-grey layout min-vh-100">
       <Sidenav />
       <PageLayout></PageLayout>
     </div>

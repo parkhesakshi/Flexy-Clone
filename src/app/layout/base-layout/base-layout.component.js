@@ -5,7 +5,7 @@ import PageLayout from "../page-layout/page-layout.component";
 
 const pageLayout = ({ children }) => {
   return (
-    <div className="base-layout p-3 bg-grey">
+    <div className="base-layout p-3 bg-grey vh-100">
       <Headernav />
       <PageLayout>
         <Outlet />

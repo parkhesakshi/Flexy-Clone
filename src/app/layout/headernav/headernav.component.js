@@ -12,7 +12,7 @@ import ProfileImg from "../../../assets/images/profile-img.jpg";
 const headernav = () => {
   return (
     <div className="headnav d-flex justify-content-between">
-      <div className="headnav-content-left">
+      <div className="headnav-content-left d-flex">
         <UIButton className="icon">
           <IoIosMenu size={ICON_MD} />
         </UIButton>
