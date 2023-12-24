@@ -9,7 +9,7 @@ import {
   Routes,
 } from "react-router-dom";
 import Modern from "./app/features/restricted/modern/modern.component";
-import Analytical from "./app/features/restricted/analytical/analitical.component";
+import Analytical from "./app/features/restricted/analytical/analytical.component";
 import ECommerce from "./app/features/restricted/eCommerce/eCommerce.component";
 import RoutesConfig from "./app/layout/routes/routes.component";
 

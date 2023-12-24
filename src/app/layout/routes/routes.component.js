@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Modern from "../../features/restricted/modern/modern.component";
-import Analytical from "../../features/restricted/analytical/analitical.component";
+import Analytical from "../../features/restricted/analytical/analytical.component";
 import ECommerce from "../../features/restricted/eCommerce/eCommerce.component";
 
 const RoutesConfig = () => {

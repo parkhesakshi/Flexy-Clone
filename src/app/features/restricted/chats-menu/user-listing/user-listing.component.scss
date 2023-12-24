@@ -1,0 +1,10 @@
+@use "../../../../../styles/global/variable" as v;
+
+.chat-active {
+  background-color: #e5f9fb;
+  border-radius: 10px;
+}
+.pointer-event {
+  cursor: pointer;
+}
+
