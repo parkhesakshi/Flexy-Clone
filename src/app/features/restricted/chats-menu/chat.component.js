@@ -7,7 +7,7 @@ import ChatWindow from "./chat-window/chat-window.component";
 
 const Chats = () => {
   return (
-    <div className="chat-container">
+    <div className="chat-container p-1 ">
       <div className="header">
         <p className="">Messenger</p>
         <h2>Chat App</h2>
