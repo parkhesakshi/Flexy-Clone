@@ -20,6 +20,7 @@ const sidenav = () => {
                   <Link
                     to={`${item.link}${subItem.link}`}
                     className="sidenav-link active d-flex p-3 gap-4 text-black"
+                    key={subItem.label}
                   >
                     <img src={subItem.icon} alt="" />
                     <span className="ml-3">{subItem.label}</span>
