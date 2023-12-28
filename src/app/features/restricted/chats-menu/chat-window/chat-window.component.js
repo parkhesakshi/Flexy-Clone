@@ -66,9 +66,9 @@ const ChatWindow = ({ userData }) => {
             </div>
           ))}
       </div>
-      <div className="chat-input d-flex align-items-center justify-content-between py-4 px-4 gap-4">
+      <div className="chat-input d-flex align-items-center justify-content-between py-3 px-4 gap-4">
         <TextInput
-          inputClass={"p-3"}
+          inputClass={"p-2"}
           placeholder={"Type a Message"}
           className={"w-100 !p-2"}
         />

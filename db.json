@@ -64,88 +64,363 @@
       "active_status": false
     }
   ],
+ 
   "messages": [
-    {
-      "user1": 2,
-      "user2": 3,
-      "messages": [
-        {
-          "sender_id": 2,
-          "message": "Hello"
-        },
-        {
-          "sender_id": 3,
-          "message": "Hi there "
-        },
-        {
-          "sender_id": 4,
-          "message": "Another message from User1!"
-        },
-        {
-          "sender_id": 5,
-          "message": "Another message from your account!"
-        },
-        {
-          "sender_id": 2,
-          "message": "Yet another message from your account!"
-        },
-        {
-          "sender_id": 1,
-          "message": "Last message from User1!"
-        }
-      ]
-    },
     {
       "user1": 2,
       "user2": 1,
       "messages": [
         {
           "sender_id": 2,
-          "message": "Hello"
+          "message": "Hey there!"
         },
         {
           "sender_id": 1,
-          "message": "Hi there"
+          "message": "Hi! I'm user1."
         },
         {
           "sender_id": 1,
-          "message": "I am Sakshi"
+          "message": "Nice to meet you, User1!"
         },
         {
           "sender_id": 2,
-          "message": "Hii I am abhishek"
+          "message": "Likewise! How's your day going?"
         },
         {
           "sender_id": 2,
-          "message": "Nice to meet you"
+          "message": "Any exciting plans for the weekend?"
         },
         {
           "sender_id": 1,
-          "message": "Same to you"
+          "message": "Not really, just relaxing. How about you?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Same here. Maybe catch up on some movies. Any recommendations?"
+        },
+        {
+          "sender_id": 1,
+          "message": "How about trying the latest action flick? Heard it's great!"
+        },
+        {
+          "sender_id": 2,
+          "message": "Sounds good! I'll check it out. Thanks!"
         }
       ]
     },
     {
-      "user1": 3,
+      "user1": 2,
+      "user2": 3,
+      "messages": [
+        {
+          "sender_id": 2,
+          "message": "Hello!"
+        },
+        {
+          "sender_id": 3,
+          "message": "Hi there! How are you doing?"
+        },
+        {
+          "sender_id": 3,
+          "message": "I heard you're into photography. Any favorite subjects?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Yes, I love capturing landscapes and cityscapes. What about you?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Do you have any hobbies or interests?"
+        },
+        {
+          "sender_id": 3,
+          "message": "I enjoy reading and hiking. What about you?"
+        },
+        {
+          "sender_id": 2,
+          "message": "I'm into gaming and cooking. Any book recommendations?"
+        },
+        {
+          "sender_id": 3,
+          "message": "How about trying a mystery novel? They can be quite thrilling!"
+        },
+        {
+          "sender_id": 2,
+          "message": "Thanks! I'll give it a shot."
+        }
+      ]
+    },
+    {
+      "user1": 2,
       "user2": 4,
       "messages": [
         {
-          "sender_id": 3,
-          "message": "Greetings from User3!"
+          "sender_id": 2,
+          "message": "Hey!"
         },
         {
           "sender_id": 4,
-          "message": "Hey, User3! How's it going?"
+          "message": "Hi! What's up?"
         },
         {
-          "sender_id": 3,
-          "message": "Not bad! What about you, User4?"
+          "sender_id": 2,
+          "message": "Not much, just chilling. How about you?"
         },
         {
           "sender_id": 4,
-          "message": "I'm doing well, thanks for asking!"
+          "message": "Just finished a workout. Feeling energized!"
+        },
+        {
+          "sender_id": 4,
+          "message": "What do you do to stay active?"
+        },
+        {
+          "sender_id": 2,
+          "message": "I enjoy cycling and jogging. Keeps me fit and refreshed."
+        },
+        {
+          "sender_id": 4,
+          "message": "That's awesome! I should try cycling sometime."
+        },
+        {
+          "sender_id": 2,
+          "message": "Definitely! It's a great way to stay active and explore the outdoors."
+        }
+      ]
+    },
+    {
+      "user1": 2,
+      "user2": 5,
+      "messages": [
+        {
+          "sender_id": 2,
+          "message": "Hola!"
+        },
+        {
+          "sender_id": 5,
+          "message": "Hi! How's it going?"
+        },
+        {
+          "sender_id": 5,
+          "message": "I heard you love traveling. Any favorite destinations?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Absolutely! I enjoy exploring new cultures. Asia is a favorite of mine."
+        },
+        {
+          "sender_id": 2,
+          "message": "Do you have a favorite travel memory?"
+        },
+        {
+          "sender_id": 5,
+          "message": "Backpacking through Europe was unforgettable. So many amazing experiences!"
+        },
+        {
+          "sender_id": 2,
+          "message": "Sounds amazing! I hope to do a Europe trip someday."
+        },
+        {
+          "sender_id": 5,
+          "message": "You should! It's a fantastic adventure."
+        }
+      ]
+    },
+    {
+      "user1": 2,
+      "user2": 6,
+      "messages": [
+        {
+          "sender_id": 2,
+          "message": "Hey!"
+        },
+        {
+          "sender_id": 6,
+          "message": "Hi there! How's your day going?"
+        },
+        {
+          "sender_id": 6,
+          "message": "I saw your latest artwork. It's impressive!"
+        },
+        {
+          "sender_id": 2,
+          "message": "Thank you! I love expressing myself through art. What about you?"
+        },
+        {
+          "sender_id": 6,
+          "message": "I enjoy music. Do you have a favorite genre or artist?"
+        },
+        {
+          "sender_id": 2,
+          "message": "I like a variety, but lately, I've been into indie and alternative. Any recommendations?"
+        },
+        {
+          "sender_id": 6,
+          "message": "Check out this indie band. Their music is fantastic!"
+        },
+        {
+          "sender_id": 2,
+          "message": "I'll give it a listen. Thanks for the suggestion!"
+        }
+      ]
+    },
+    {
+      "user1": 2,
+      "user2": 7,
+      "messages": [
+        {
+          "sender_id": 2,
+          "message": "Hey!"
+        },
+        {
+          "sender_id": 7,
+          "message": "Hi there! What's up?"
+        },
+        {
+          "sender_id": 7,
+          "message": "I heard you're a tech enthusiast. Any favorite gadgets?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Absolutely! I love exploring the latest tech. Smart home devices are a favorite of mine."
+        },
+        {
+          "sender_id": 2,
+          "message": "What about you? Any tech interests?"
+        },
+        {
+          "sender_id": 7,
+          "message": "I'm into VR gaming. It's an immersive experience!"
+        },
+        {
+          "sender_id": 2,
+          "message": "That sounds awesome! I've been meaning to try VR gaming. Any game recommendations?"
+        },
+        {
+          "sender_id": 7,
+          "message": "Definitely try this popular VR game. It's a game-changer!"
+        },
+        {
+          "sender_id": 2,
+          "message": "I'll give it a go. Thanks for the suggestion!"
+        }
+      ]
+    },
+    {
+      "user1": 2,
+      "user2": 8,
+      "messages": [
+        {
+          "sender_id": 2,
+          "message": "Hello!"
+        },
+        {
+          "sender_id": 8,
+          "message": "Hi there! How's your day going?"
+        },
+        {
+          "sender_id": 8,
+          "message": "I noticed you're into fitness. Any favorite workouts?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Yes, I enjoy a mix of cardio and strength training. Keeps me energized!"
+        },
+        {
+          "sender_id": 2,
+          "message": "What about you? Do you have a fitness routine?"
+        },
+        {
+          "sender_id": 8,
+          "message": "I'm into yoga. It helps me stay centered and flexible."
+        },
+        {
+          "sender_id": 2,
+          "message": "That's great! Yoga has so many benefits. I should give it a try."
+        },
+        {
+          "sender_id": 8,
+          "message": "You definitely should! It's a game-changer for both body and mind."
+        }
+      ]
+    },
+    {
+      "user1": 2,
+      "user2": 9,
+      "messages": [
+        {
+          "sender_id": 2,
+          "message": "Hey!"
+        },
+        {
+          "sender_id": 9,
+          "message": "Hi there! How's it going?"
+        },
+        {
+          "sender_id": 9,
+          "message": "I heard you're into coding. Any favorite programming languages?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Absolutely! I love working with Python and JavaScript. What about you?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Do you have any coding projects you're currently working on?"
+        },
+        {
+          "sender_id": 9,
+          "message": "I'm working on a web development project. Exciting stuff!"
+        },
+        {
+          "sender_id": 2,
+          "message": "That sounds interesting! Web development is a fascinating field."
+        },
+        {
+          "sender_id": 9,
+          "message": "It sure is! The possibilities are endless."
+        }
+      ]
+    },
+    {
+      "user1": 2,
+      "user2": 10,
+      "messages": [
+        {
+          "sender_id": 2,
+          "message": "Hola!"
+        },
+        {
+          "sender_id": 10,
+          "message": "Hi there! How's your day going?"
+        },
+        {
+          "sender_id": 10,
+          "message": "I heard you love cooking. Any favorite recipes?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Yes, I enjoy experimenting with new dishes. Italian cuisine is a favorite of mine."
+        },
+        {
+          "sender_id": 2,
+          "message": "What about you? Do you enjoy cooking?"
+        },
+        {
+          "sender_id": 10,
+          "message": "I'm a fan of baking. Cakes and cookies are my specialty!"
+        },
+        {
+          "sender_id": 2,
+          "message": "That sounds delicious! I'd love to try some of your baked goodies."
+        },
+        {
+          "sender_id": 10,
+          "message": "Anytime! Baking is my way of spreading joy."
         }
       ]
     }
   ]
+
+
 }
