@@ -5,9 +5,9 @@ import { FiShoppingBag } from "react-icons/fi";
 import { LuDollarSign } from "react-icons/lu";
 import LineChart from "../../../ui/components/charts/line-chart/line-chart.component";
 import "./modern.component.scss";
-import RevenueUpdateCard from "./revenue-update/revenu-update.component";
-import MonthlyRevenueCard from "./revenue-update/monthly-revenu.component";
-import CustomerGrid from "./revenue-update/customer-grid.component";
+import RevenueUpdateCard from "./revenue-update-grids/revenu-update.component";
+import MonthlyRevenueCard from "./revenue-update-grids/monthly-revenu.component";
+import CustomerGrid from "./revenue-update-grids/customer-grid.component";
 
 const Modern = () => {
   return (

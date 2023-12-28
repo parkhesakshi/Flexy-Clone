@@ -45,6 +45,7 @@ const CustomerGrid = () => {
     dataLabels: {
       enabled: false,
     },
+
     colors: ["#FFFFFF"],
     fill: {
       type: "solid",
