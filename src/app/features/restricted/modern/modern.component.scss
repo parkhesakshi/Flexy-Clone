@@ -60,7 +60,7 @@
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
 }
-.main {
+.main-1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   //   grid-template-rows: repeat(auto-fill, 1fr);
@@ -70,36 +70,69 @@
   grid-gap: 30px;
   margin-top: 20px;
 
-  .one {
+  .m-one {
     grid-column: 1;
     background-color: white;
     height: 200px;
     width: 460px;
   }
-  .two {
+  .m-two {
     grid-column: 2;
     background-color: white;
     height: 200px;
   }
-  .three {
+  .m-three {
     grid-column: 3;
     background-color: white;
     height: 200px;
   }
-  .four {
+  .m-four {
     grid-column: 1 / span 2;
     grid-row: 2 / span 2;
     background-color: white;
     // height: 450px;
   }
-  .five {
+  .m-five {
     grid-row: 2 / span 1/2;
     grid-column: 3;
     background-color: v.$primary-color;
   }
-  .six {
+  .m-six {
     grid-row: 2 / span 1/2;
     grid-column: 3;
     background-color: v.$secondary-color;
+  }
+}
+.main-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  grid-gap: 30px;
+  margin-top: 30px;
+
+  .m2-one {
+    grid-column: 1;
+    background-color: white;
+  }
+  .m2-two {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    background-color: white;
+  }
+  .m2-three {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: white;
+  }
+  .m2-four {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: white;
+  }
+  .m2-five {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #fff;
   }
 }

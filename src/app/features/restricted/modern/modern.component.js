@@ -12,8 +12,8 @@ import CustomerGrid from "./revenue-update-grids/customer-grid.component";
 const Modern = () => {
   return (
     <div className="h-auto">
-      <div className="main">
-        <div className="one modern-cards d-flex justify-content-between overflow-hidden">
+      <div className="main-1">
+        <div className="m-one modern-cards d-flex justify-content-between overflow-hidden">
           <div className="content-1 p-4 ml-2">
             <h5 className="mt-3">Congratulation Julia</h5>
             <div className="d-flex align-items-center gap-3">
@@ -29,7 +29,7 @@ const Modern = () => {
             <img className="w-100 h-100  " src={ModernAvtar} alt="" />
           </div>
         </div>
-        <div className="two modern-cards">
+        <div className="m-two modern-cards">
           <div className="content-2 d-flex p-4 ml-2 align-items-start justify-content-between w-100">
             <h5 className="mt-3">Purcheses</h5>
             <UIButton className="purchase icon rounded-circle mt-3">
@@ -41,7 +41,7 @@ const Modern = () => {
             <p className="base-line">Monthly Sales</p>
           </div>
         </div>
-        <div className="three modern-cards">
+        <div className="m-three modern-cards">
           <div className="content-2 d-flex p-4 ml-2 align-items-start justify-content-between w-100">
             <h5 className="mt-3">Total Earnings</h5>
             <UIButton className="dollar icon rounded-circle mt-3">
@@ -53,15 +53,22 @@ const Modern = () => {
             <p className="base-line">Monthly Revenue</p>
           </div>
         </div>
-        <div className="four modern-cards p-3">
+        <div className="m-four modern-cards p-3">
           <RevenueUpdateCard />
         </div>
-        <div className="five modern-cards ">
+        <div className="m-five modern-cards ">
           <MonthlyRevenueCard />
         </div>
-        <div className="six modern-cards">
+        <div className="m-six modern-cards">
           <CustomerGrid />
         </div>
+      </div>
+      <div className="main-2">
+        <div className="m2-one modern-cards"></div>
+        <div className="m2-two modern-cards"></div>
+        <div className="m2-three modern-cards"></div>
+        <div className="m2-four modern-cards"></div>
+        <div className="m2-five modern-cards"></div>
       </div>
     </div>
   );
