@@ -6,6 +6,9 @@ import { LuDollarSign } from "react-icons/lu";
 import LineChart from "../../../ui/components/charts/line-chart/line-chart.component";
 import "./modern.component.scss";
 import RevenueUpdateCard from "./revenue-update/revenu-update.component";
+import MonthlyRevenueCard from "./revenue-update/monthly-revenu.component";
+import CustomerGrid from "./revenue-update/customer-grid.component";
+
 const Modern = () => {
   return (
     <div className="h-auto">
@@ -14,7 +17,7 @@ const Modern = () => {
           <div className="content-1 p-4 ml-2">
             <h5 className="mt-3">Congratulation Julia</h5>
             <div className="d-flex align-items-center gap-3">
-              <h2 className="mt-2">$39,358</h2>
+              <h2 className="mt-2 b">$39,358</h2>
               <h6 className="mt-3"> +9%</h6>
             </div>
             <UIButton
@@ -23,7 +26,7 @@ const Modern = () => {
             />
           </div>
           <div className="avtar">
-            <img className="w-100 h-100 " src={ModernAvtar} alt="" />
+            <img className="w-100 h-100  " src={ModernAvtar} alt="" />
           </div>
         </div>
         <div className="two modern-cards">
@@ -53,8 +56,12 @@ const Modern = () => {
         <div className="four modern-cards p-3">
           <RevenueUpdateCard />
         </div>
-        <div className="five modern-cards"></div>
-        <div className="six modern-cards"></div>
+        <div className="five modern-cards ">
+          <MonthlyRevenueCard />
+        </div>
+        <div className="six modern-cards">
+          <CustomerGrid />
+        </div>
       </div>
     </div>
   );

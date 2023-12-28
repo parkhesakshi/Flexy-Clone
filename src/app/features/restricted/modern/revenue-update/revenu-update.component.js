@@ -1,5 +1,6 @@
 import React from "react";
 import LineChart from "../../../../ui/components/charts/line-chart/line-chart.component";
+import "./revenu.component.scss";
 
 const RevenueUpdateCard = () => {
   const seriesData = [
@@ -16,12 +17,12 @@ const RevenueUpdateCard = () => {
   const getSeriesData = () => {};
   return (
     <>
-      <div className="d-flex align-items-center justify-content-between">
-        <h2>Revenue Updates</h2>
+      <div className="d-flex align-items-center justify-content-between p-3">
+        <h3 className="revenu_heading">Revenue Updates</h3>
       </div>
       <div className="h-100">
         <LineChart
-          height={"340"}
+          height={"330"}
           showLegends={true}
           colors={["#03c9d7", "#fb9678"]}
           seriesData={seriesData}

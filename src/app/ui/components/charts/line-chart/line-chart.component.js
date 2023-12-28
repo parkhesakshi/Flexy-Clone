@@ -26,14 +26,23 @@ const LineChart = ({
       align: "left",
     },
     grid: {
-      row: {
-        strokeDashArray: 3,
-        borderColor: "#e7e7e7",
-        // opacity: 0.5,
+      strokeDashArray: 2,
+      yaxis: {
+        lines: {
+          show: true,
+        },
       },
+    },
+    tooltip: {
+      enabled: true,
+      style: {
+        fontSize: "12px",
+      },
+      theme: "dark",
     },
     stroke: {
       curve: "smooth",
+      width: 3,
     },
     colors: colors || [],
     dataLabels: {
@@ -41,10 +50,22 @@ const LineChart = ({
     },
     xaxis: {
       categories: categories || [],
-      title: {
-        text: xAxisTitle,
+      labels: {
+        style: {
+          colors: "#C5C5C5",
+          fontSize: "13px",
+        },
       },
     },
+    yaxis: {
+      labels: {
+        style: {
+          colors: "#C5C5C5",
+          fontSize: "13px",
+        },
+      },
+    },
+
     legend: {
       show: showLegends,
       position: "bottom",
