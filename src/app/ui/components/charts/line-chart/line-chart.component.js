@@ -25,6 +25,13 @@ const LineChart = ({
       text: title,
       align: "left",
     },
+    grid: {
+      row: {
+        strokeDashArray: 3,
+        borderColor: "#e7e7e7",
+        // opacity: 0.5,
+      },
+    },
     stroke: {
       curve: "smooth",
     },
@@ -44,7 +51,7 @@ const LineChart = ({
       horizontalAlign: "center",
     },
     markers: {
-      size: 6,
+      size: 4,
     },
   };
   return (

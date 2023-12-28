@@ -12,7 +12,7 @@ const ChatHeader = ({ userData }) => {
       />
       <div className="user-name">
         <p className="chat-user-name ">{userData?.name}</p>
-        <p className="opacity-50">Offline</p>
+        <p className="opacity-50">{userData?.active_status}</p>
       </div>
     </div>
   );

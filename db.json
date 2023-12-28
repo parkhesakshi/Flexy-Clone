@@ -5,63 +5,70 @@
       "name": "John Doe",
       "designation": "Software Engineer",
       "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
-      "active_status": true
+      "active_status": "Online"
     },
     {
       "id": 3,
       "name": "Bob Johnson",
       "designation": "Data Scientist",
       "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
-      "active_status": false
+      "active_status": "Offline"
     },
     {
       "id": 4,
       "name": "Alice Williams",
       "designation": "Product Manager",
       "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
-      "active_status": true
+      "active_status": "Online"
     },
     {
       "id": 5,
       "name": "Chris Davis",
       "designation": "Marketing Specialist",
       "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
-      "active_status": false
+      "active_status": "Offline"
     },
     {
       "id": 6,
       "name": "Eva Rodriguez",
       "designation": "Graphic Designer",
       "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
-      "active_status": true
+      "active_status": "Online"
     },
     {
       "id": 7,
       "name": "Sam Carter",
       "designation": "HR Manager",
       "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
-      "active_status": true
+      "active_status": "Online"
     },
     {
       "id": 8,
       "name": "Michael Brown",
       "designation": "Financial Analyst",
       "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
-      "active_status": false
+      "active_status": "Offline"
     },
     {
       "id": 9,
       "name": "Linda Taylor",
       "designation": "Customer Support",
       "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
-      "active_status": true
+      "active_status": "Online"
     },
     {
       "id": 10,
       "name": "David Lee",
       "designation": "Project Manager",
       "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
-      "active_status": false
+      "active_status": "Offline"
+    },
+    {
+      "id": 11,
+      "name": "Alis John",
+      "designation": "Manager",
+      "profile_pic": "https://img.icons8.com/color/48/circled-user-female-skin-type-1-2--v1.png",
+      "active_status": "Offline"
     }
   ],
  
@@ -419,7 +426,48 @@
           "message": "Anytime! Baking is my way of spreading joy."
         }
       ]
-    }
+    },
+    {
+      "user1": 2,
+      "user2": 11,
+      "messages": [
+        {
+          "sender_id": 2,
+          "message": "Hey there!"
+        },
+        {
+          "sender_id": 11,
+          "message": "Hi! How's it going?"
+        },
+        {
+          "sender_id": 11,
+          "message": "I heard you're into photography. Any favorite subjects?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Yes, I love capturing landscapes and cityscapes. What about you?"
+        },
+        {
+          "sender_id": 2,
+          "message": "Do you have any hobbies or interests?"
+        },
+        {
+          "sender_id": 11,
+          "message": "I'm into hiking and painting. What about you?"
+        },
+        {
+          "sender_id": 2,
+          "message": "I enjoy gaming and cooking. Any painting recommendations?"
+        },
+        {
+          "sender_id": 11,
+          "message": "How about trying abstract art? It's a great way to express creativity!"
+        },
+        {
+          "sender_id": 2,
+          "message": "Thanks! I'll give it a shot."
+        }
+      ]      }
   ]
 
 
